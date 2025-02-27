@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const Botao = styled.button`
   position: fixed;
-  top: 30px;
+  bottom: 90px;
   right: 30px;
   padding: 5px;
   border-radius: 100%;
