@@ -67,7 +67,7 @@ export const Botao = styled.button`
   cursor: pointer;
   border-radius: 8px;
   margin-right: 8px;
-  background-color: ${(props) => props.theme.corButtonCinza};
+  background-color: ${(props) => props.theme.corCinza};
 `
 
 export const BotaoRemover = styled(Botao)`

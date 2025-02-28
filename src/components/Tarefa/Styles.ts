@@ -24,7 +24,7 @@ export const Titulo = styled.h3`
 export const Tag = styled.span`
   display: inline-block;
   padding: 4px 8px;
-  color: ${(props) => props.theme.corPrincipal};
+  color: ${(props) => props.theme.corButtons};
   font-weight: bold;
   font-size: 10px;
   border-radius: 8px;
@@ -48,7 +48,7 @@ export const TagImportante = styled(Tag)`
 `
 
 export const TagNormal = styled(Tag)`
-  background-color: ${(props) => props.theme.corSecundaria2};
+  background-color: ${(props) => props.theme.corCinza};
 `
 
 export const Descricao = styled.textarea`
